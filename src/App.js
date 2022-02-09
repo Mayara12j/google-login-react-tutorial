@@ -16,11 +16,12 @@ function App() {
 		setEmail(email);
 		setProfilePic(imageUrl);
 		setIsLoggedIn(true);
+
 	};
 	return (
 		<div className="container">
 			<GoogleLogin
-				clientId="366023343940-ndamikr6o5em3sivatijihspjsg8gmt2.apps.googleusercontent.com"
+				clientId="120496085046-ijrpf60cuo80p93ss1pubvb4utfejbnj.apps.googleusercontent.com"
 				buttonText="Continuar com o Google"
 				onSuccess={responseGoogle}
 				onFailure={responseGoogle}
